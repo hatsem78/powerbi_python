@@ -1,6 +1,10 @@
 import os
 
-CLIENT_SECRET = "Enter_the_Client_Secret_Here" # Our Quickstart uses this placeholder
+CLIENT_SECRET = "v@xNj=9225ggeudN]/vat@S21o@RmFsL"
+CLIENT_ID = "997b0821-e6db-472b-bfc1-c1163c618253"
+
+
+#CLIENT_SECRET = "Enter_the_Client_Secret_Here" # Our Quickstart uses this placeholder
 # In your production app, we recommend you to use other ways to store your secret,
 # such as KeyVault, or environment variable as described in Flask's documentation here
 # https://flask.palletsprojects.com/en/1.1.x/config/#configuring-from-environment-variables
@@ -11,9 +15,9 @@ CLIENT_SECRET = "Enter_the_Client_Secret_Here" # Our Quickstart uses this placeh
 AUTHORITY = "https://login.microsoftonline.com/common"  # For multi-tenant app
 # AUTHORITY = "https://login.microsoftonline.com/Enter_the_Tenant_Name_Here"
 
-CLIENT_ID = "Enter_the_Application_Id_here"
+#CLIENT_ID = "Enter_the_Application_Id_here"
 
-REDIRECT_PATH = "/getAToken"  # It will be used to form an absolute URL
+REDIRECT_PATH = "http://localhost:5000/getAToken"  # It will be used to form an absolute URL
     # And that absolute URL must match your app's redirect_uri set in AAD
 
 # You can find more Microsoft Graph API endpoints from Graph Explorer
